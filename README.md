@@ -40,6 +40,12 @@ BLOCKOGRAPHY-AI/
 
 ## Installation
 
+### Prerequsites
+
+- Git
+- [VSCode](https://code.visualstudio.com/download) (suggested, you can also use other text editor)
+- miniconda
+
 ### Install Miniconda
 
 First you need to install miniconda from <https://www.anaconda.com/download> to create environment. After logging in, choose "Miniconda Installers" and choose the one that matches your operating system (MacOS/Windows/Linux). Click the file you just download and follow the setup wizard. Remember to choose “Add Miniconda to my PATH environment variable.” Next, restart the terminal.
@@ -68,6 +74,10 @@ pip install numpy
 # or use conda
 conda install numpy
 ```
+
+### VS Code Setup
+
+After using VS Code to open the repository, open `rf.ipynb`, click "Select Kernel" on the top right. If your VS Code doesn't have Python and Jupyter extensions, click "Install/Enable suggested extensions." After the extensions are installed, click "Select Kernel" again, and choose "Python Environments" and then "ai-comp-dev" on the top command bar. After the kernel is set, run the first code block. If it runs successfully, you are good to go!
 
 ## Instruction
 
