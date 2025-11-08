@@ -154,7 +154,7 @@ If you'd like to use deep learning models, we recommend using PyTorch, as we've 
 
 We split the dataset into two: train data and eval data. For the train data, you are given the features and the true labels (in `\train_data`). For the eval data (in `\eval_data`) you are only given the features but no labels. You are supposed to train your model using the train data and submit the prediction of the eval data.
 
-To submit your prediction, run the final block (submission) in the starter notebooks. It will store the results of your prediction in a CSV file at the path specified (you can change this too). Next, go to <https://ai.acmucsd.com/portal> to manually upload the CSV file. **Please note that the submission portal will be closed at 5 pm.**
+To submit your prediction, run the final block (submission) in the starter notebooks. It will store the results of your prediction in a CSV file at the path specified (you can change this too). You need to name the file as `submission.csv` exactly in order to successfully submit your prediction. Next, go to <https://ai.acmucsd.com/portal> to manually upload the CSV file. **Please note that the submission portal will be closed at 5 pm.**
 
 On the website portal, you will see the public score of your submission, which is calculated using 50% of the test data. The final ranking will be based on the other 50% data (private score).
 
